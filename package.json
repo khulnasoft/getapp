@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "name": "@khulnasoft/repo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khulnasoft/getapp.git"
+  }
+}
