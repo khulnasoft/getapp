@@ -83,7 +83,7 @@
     "require-dev": {
         "ext-fileinfo": "*",
         "appwrite/sdk-generator": "0.38.*",
-        "phpunit/phpunit": "9.5.20",
+        "phpunit/phpunit": "9.6.33",
         "swoole/ide-helper": "5.1.2",
         "textalk/websocket": "1.5.7",
         "laravel/pint": "^1.14"
