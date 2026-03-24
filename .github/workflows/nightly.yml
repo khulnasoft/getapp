@@ -16,7 +16,7 @@ jobs:
       - name: Build the Docker image
         run: docker build . -t getapp_image:latest
       - name: Run Trivy vulnerability scanner on image
-        uses: aquasecurity/trivy-action@0.20.0
+        uses: aquasecurity/trivy-action@0.35.0
         with:
           image-ref: 'getapp_image:latest'
           format: 'sarif'
@@ -35,7 +35,7 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner on filesystem
-        uses: aquasecurity/trivy-action@0.20.0
+        uses: aquasecurity/trivy-action@0.35.0
         with:
           scan-type: 'fs'
           format: 'sarif'
